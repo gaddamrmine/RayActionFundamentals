@@ -1,0 +1,10 @@
+# This is a basic workflow to help you get  started with Actions
+
+name: GIThub actions Demo
+
+# Controls when the workflow will run
+on:
+ # Triggers the workflow on push or pull request events for the
+ push:
+    branches: [ main ]
+    paths-ignore: [.github/**]
